@@ -1,15 +1,17 @@
-let x = 101
-if(x>=81 ){
-    console.log('A')
-}else if(x>=71){
-    console.log('B')
-}else if(x>=61){
-    console.log('C')
-}else if(x>=51){
-    console.log('D')
-}else{
-    console.log('F');
-}
 
-const grade = x>=81? 'A': x>=71? 'B': x>=61? 'C': x>=51? 'D':'F'
-console.log(grade)
+const CalGrade = (x) => {
+    if(x>=81 && x<=100){
+        console.log('A')
+    }else if(x>=71 && x<80){
+        console.log('B')
+    }else if(x>=61 && x<=70){
+        console.log('C')
+    }else if(x>=51 && x<=60){
+        console.log('D')
+    }else if(x>=9 && x<=50){
+        console.log('F');
+    }else{
+        console.log("invalid")
+    }
+}
+console.log(CalGrade(50))
