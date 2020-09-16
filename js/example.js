@@ -4,6 +4,6 @@ let me = {
   nickname: 'fluck',
   age: 20,
   hobby: "listening music",
-  tel: 0821848102
+  tel: '0821848102'
 }
 console.log(me);
